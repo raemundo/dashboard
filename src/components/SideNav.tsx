@@ -23,19 +23,19 @@ const SideNav = () => {
           <li className="sidebar-list-item">
             <a href="#" className="sidebar-link">
               <img src={DashboardIcon} />
-              <div className="sidebar-txt">Text Here</div>
+              <div className="sidebar-txt">Dashboard</div>
             </a>
           </li>
           <li className="sidebar-list-item">
             <a href="#" className="sidebar-link">
               <img src={Work} />
-              <div className="sidebar-txt">Text Here</div>
+              <div className="sidebar-txt">Work</div>
             </a>
           </li>
           <li className="sidebar-list-item">
             <a href="#" className="sidebar-link">
               <img src={breeding} />
-              <div className="sidebar-txt">Text Here</div>
+              <div className="sidebar-txt">Breeding</div>
             </a>
           </li>
 
@@ -43,26 +43,26 @@ const SideNav = () => {
           <li className="sidebar-list-item">
             <a href="#" className="sidebar-link">
               <img src={HousingIcon} />
-              <div className="sidebar-txt">Text Here</div>
+              <div className="sidebar-txt">Housing</div>
             </a>
           </li>
           <li className="sidebar-list-item">
             <a href="#" className="sidebar-link">
               <img src={EduCertIcon} />
-              <div className="sidebar-txt">Text Here</div>
+              <div className="sidebar-txt">Edu. Cert.</div>
             </a>
           </li>
           <li className="sidebar-list-item">
             <a href="#" className="sidebar-link">
               <img src={MarketplaceIcon} />
-              <div className="sidebar-txt">Text Here</div>
+              <div className="sidebar-txt">WL Shop</div>
             </a>
           </li>
         
           <li className="sidebar-list-item">
             <a href="#" className="sidebar-link">
               <img src={BLMBankIcon} />
-              <div className="sidebar-txt">Text Here</div>
+              <div className="sidebar-txt">BLM Bank</div>
             </a>
           </li>
 
