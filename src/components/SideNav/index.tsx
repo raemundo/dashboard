@@ -20,7 +20,7 @@ const SideNav = () => {
       </div>
       <div className="middle-sidebar">
         <ul className="sidebar-list">
-          <li className="sidebar-list-item">
+          <li className="sidebar-list-item ative">
             <a href="#" className="sidebar-link">
               <img src={DashboardIcon} />
               <div className="sidebar-txt">Dashboard</div>

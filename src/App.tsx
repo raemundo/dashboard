@@ -23,7 +23,7 @@ function App() {
                 <button className="connect-btn">0xBE4256....Xsd</button>
               </div>
               <div className="">
-                <p>Balance: <span>1500$</span> <span>BLM</span></p>
+                <p>Balance: <span >1500$</span> <span>BLM</span></p>
               </div>
             </div>
           </div>
