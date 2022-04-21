@@ -1,19 +1,11 @@
 @font-face {
-    font-family: "Your-Doodle-Font";
-    src: local("Your-Doodle-Font"),
-        url("../assets/Your-Doodle-Font.ttf") format("truetype");
-    font-weight: bold;
-
-}
-
-@font-face {
     font-family: 'Baloo-Regular';
     src: url('../assets/Baloo-Regular.ttf') format('truetype');
 }
 
 body {
     margin: 0;
-    font-family: "Your-Doodle-Font";
+    font-family: 'Baloo-Regular';
 }
 
 *,
@@ -34,9 +26,10 @@ body {
 }
 
 .main {
-    width: 100%;
+    width: 100vw;
     background-color: #53d4fb;
     color: white;
+    padding:35px 35px;
 }
 
 .connect-btn {
@@ -46,19 +39,24 @@ body {
     font-size: large;
     font-weight: bold;
     border: none;
-    width: 350px;
     height: 80;
-    position: absolute;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    font-family: 'Your-Doodle-Font';
 }
 
-.btn-container {
+.balance-container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row-balance {}
+
+.btn-container {
+    /* display: flex;
     justify-content: end;
-    padding: 25px;
+    padding: 25px; */
 }
 
 .msg-container {
@@ -71,16 +69,14 @@ body {
 }
 
 .head {
-    font-size: 58px;
-font-weight: 400;
-line-height: 116px;
+    font-size: 30px;
+    font-weight: 400;
 }
 
 .desc {
-    font-size: 40px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 400;
-    font-size: 34px;
     line-height: 36px;
 }
 
@@ -113,7 +109,6 @@ line-height: 116px;
     left: 0;
     background-color: #22c5f6;
     top: var(--header-height);
-    font-family: 'Baloo-Regular';
 
 }
 
@@ -257,4 +252,52 @@ line-height: 116px;
 .bottom-sidebar .sidebar-list-item {
     text-align: center;
     margin-top: 5px;
+}
+
+.card-container {
+    margin-left: 22px;
+}
+
+.card {
+    width: 200px;
+    color: black;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 20px 0px 0px;
+    margin-right: 15px;
+}
+
+.cid {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.duration {
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.image {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+.main-txt {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 102px;
+}
+
+.space-between {
+
+    justify-content: space-between;
+}
+
+.first-column {
+    flex-grow: 1;
 }
