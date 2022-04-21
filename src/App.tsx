@@ -16,8 +16,8 @@ function App() {
           <div className="msg-container">
             <div>
               <h1 className="head">
-                the bloodeverse<br />
                 welcome to <br />
+                the bloodeverse<br />
               </h1>
               <h2 className="desc">
                 connect your wallet to enter the app
