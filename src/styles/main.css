@@ -310,7 +310,10 @@ span {
     text-decoration: underline;
 }
 
-.sidebar-list-item .ative {
+
+
+.active-link {
     border: 2px solid #FFFFFF;
     border-radius: 20px;
+    text-decoration: none;
 }
