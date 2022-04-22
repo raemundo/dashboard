@@ -1,0 +1,11 @@
+.head {
+    
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.card-container {
+    margin-bottom: 50px;
+}
