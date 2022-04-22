@@ -1,0 +1,97 @@
+.main-txt {
+    
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 102px;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+
+.connect-btn {
+    color: black;
+    padding: 13px 38px;
+    border: none;
+    font-family: 'Baloo-Regular';
+    
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 54px;
+
+    height: 80;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.balance-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.msg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 80%;
+    text-align: center;
+}
+
+
+.desc {
+    font-size: 50px;
+    
+    font-weight: 400;
+    line-height: 36px;
+}
+
+
+.space-between {
+    justify-content: space-between;
+}
+
+.first-column {
+    flex-grow: 1;
+}
+
+.balance {
+    font-family: 'Baloo-Regular';
+    
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 57px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.balance-txt {
+    text-decoration: none;
+    margin-right: 13px;
+}
+
+span {
+    text-decoration: underline;
+    margin-left: 4px;
+}
+
+.mt-6 {
+    margin-top: 6px;
+}
+
+.mb-74 {
+    margin-bottom: 74px;
+}
+
+.pl-59 {
+    padding-left: 59px;
+}
+
+.pr-47 {
+    padding-right: 47px;
+}
+
